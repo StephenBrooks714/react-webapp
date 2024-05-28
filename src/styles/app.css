@@ -1,0 +1,82 @@
+section.home-intro {
+  background-size: cover;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://potomac.edu/wp-content/uploads/2020/12/benefits-of-coding-e1606911064541.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+section.home-intro .container {
+  max-width: 800px;
+  padding: 1rem;
+}
+section.home-intro .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.home-intro h1.title {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(244, 244, 244, 0.9);
+}
+@media (max-width: 768px) {
+  section.home-intro h1.title {
+    font-size: 3rem;
+  }
+}
+section.home-intro .btn-wrapper {
+  display: flex;
+  gap: 1.3rem;
+}
+section.home-intro .btn {
+  margin-top: 1rem;
+  background-color: #4caf50;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+section.home-intro .btn-primary {
+  background-color: blue;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  transition: all ease-in-out 0.3s;
+}
+section.home-intro .btn-primary:hover {
+  background-color: darkblue;
+  color: white;
+  scale: 1.1;
+  transition: all ease-in-out 0.3s;
+}
+@media (max-width: 768px) {
+  section.home-intro .btn-primary:hover {
+    font-size: 1rem;
+  }
+}
+section.home-intro .btn-secondary {
+  background-color: #f44336;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  transition: all ease-in-out 0.3s;
+}
+section.home-intro .btn-secondary:hover {
+  background-color: darkred;
+  color: white;
+  scale: 1.1;
+  transition: all ease-in-out 0.3s;
+}
+@media (max-width: 768px) {
+  section.home-intro .btn-secondary:hover {
+    font-size: 1rem;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
