@@ -88,12 +88,12 @@ function App() {
                   <h4 className={"display-1"}>Reactive web apps</h4>
               </div>
               <div className={"col-lg-6 mb-2"}>
-                  <img src={Devices} className={"img-fluid"} alt="image 1"/>
+                  <img src={Devices} className={"img-fluid"} alt={"Reactive web apps"}/>
               </div>
           </div>
           <div className={"row justify-content-center align-items-center"}>
               <div className={"col-lg-5 mb-3"}>
-                  <img src={Desktop} className={"img-fluid"} alt="image 1"/>
+                  <img src={Desktop} className={"img-fluid"} alt={"Dynamic web apps"}/>
               </div>
               <div className={"col-lg-7 mb-3"}>
                   <h5 className={"display-4 fw-bold"}>Dynamic web apps</h5>
